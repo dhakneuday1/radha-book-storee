@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Radha Book Store</title>
+
+<style>
+
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f5f5f5;
+}
+
+header{
+background:#2c3e50;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav{
+background:#34495e;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.hero{
+background:url("https://images.unsplash.com/photo-1524995997946-a1c2e315a42f");
+background-size:cover;
+color:white;
+padding:100px 20px;
+text-align:center;
+}
+
+section{
+padding:40px;
+text-align:center;
+}
+
+.books{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+}
+
+.book{
+background:white;
+padding:15px;
+width:200px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+.book img{
+width:100%;
+border-radius:5px;
+}
+
+.category{
+background:white;
+margin:10px;
+padding:15px;
+display:inline-block;
+border-radius:8px;
+box-shadow:0 0 5px rgba(0,0,0,0.2);
+}
+
+footer{
+background:#2c3e50;
+color:white;
+padding:30px;
+text-align:center;
+}
+
+.contact{
+background:#ecf0f1;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Radha Book Store</h1>
+<p>A World of Books for Every Reader</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Categories</a>
+<a href="#">Featured</a>
+<a href="#">Best Sellers</a>
+<a href="#">Contact</a>
+</nav>
+
+<div class="hero">
+<h2>Welcome to Radha Book Store</h2>
+<p>Find the best books for study, knowledge and entertainment</p>
+</div>
+
+<section>
+
+<h2>About Our Store</h2>
+
+<p>
+Radha Book Store is a trusted destination for students and book lovers.
+We provide school books, competitive exam books, novels, children's books
+and self-development books at affordable prices.
+</p>
+
+</section>
+
+<section>
+
+<h2>Book Categories</h2>
+
+<div class="category">School Books</div>
+<div class="category">Competitive Exam Books</div>
+<div class="category">Novels</div>
+<div class="category">Children Books</div>
+<div class="category">Self-Improvement</div>
+<div class="category">Religious Books</div>
+
+</section>
+
+<section>
+
+<h2>Featured Books</h2>
+
+<div class="books">
+
+<div class="book">
+<img src="https://covers.openlibrary.org/b/id/10521270-L.jpg">
+<h3>Atomic Habits</h3>
+<p>₹450</p>
+</div>
+
+<div class="book">
+<img src="https://covers.openlibrary.org/b/id/11153261-L.jpg">
+<h3>Rich Dad Poor Dad</h3>
+<p>₹350</p>
+</div>
+
+<div class="book">
+<img src="https://covers.openlibrary.org/b/id/8277896-L.jpg">
+<h3>The Alchemist</h3>
+<p>₹300</p>
+</div>
+
+<div class="book">
+<img src="https://covers.openlibrary.org/b/id/10594755-L.jpg">
+<h3>Ikigai</h3>
+<p>₹399</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Best Sellers</h2>
+
+<div class="books">
+
+<div class="book">
+<img src="https://covers.openlibrary.org/b/id/10521270-L.jpg">
+<h3>Atomic Habits</h3>
+<p>Popular Self Help Book</p>
+</div>
+
+<div class="book">
+<img src="https://covers.openlibrary.org/b/id/11153261-L.jpg">
+<h3>Rich Dad Poor Dad</h3>
+<p>Finance Bestseller</p>
+</div>
+
+<div class="book">
+<img src="https://covers.openlibrary.org/b/id/8277896-L.jpg">
+<h3>The Alchemist</h3>
+<p>Famous Novel</p>
+</div>
+
+<div class="book">
+<img src="https://covers.openlibrary.org/b/id/10594755-L.jpg">
+<h3>Ikigai</h3>
+<p>Life Philosophy</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="contact">
+
+<h2>Contact Us</h2>
+
+<p><b>Address:</b> Anvi, Badnapur, Jalna, Maharashtra</p>
+<p><b>Phone:</b> 957939172</p>
+<p><b>Email:</b> radhabookstore@gmail.com</p>
+
+<p><b>Opening Hours</b></p>
+<p>Monday – Saturday: 9:00 AM – 9:00 PM</p>
+<p>Sunday: 10:00 AM – 6:00 PM</p>
+
+</section>
+
+<footer>
+
+<h3>Radha Book Store</h3>
+
+<p>Your trusted place for books and learning.</p>
+
+<p>
+Home | Categories | Featured | Contact
+</p>
+
+<p>© 2026 Radha Book Store. All Rights Reserved.</p>
+
+</footer>
+
+</body>
+</html>
